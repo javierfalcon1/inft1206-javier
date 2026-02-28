@@ -39,7 +39,7 @@ a{
 }
 
 a:hover,
-a:focus{
+a:focus {
     color: darkgreen;
     text-decoration: none;
 }
