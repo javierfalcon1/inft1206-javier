@@ -16,6 +16,7 @@ const baseURL = "https://mdn.github.io/shared-assets/images/examples/learn/galle
 
 for (const image of images) {
   const newImage = document.createElement("img");
+
   newImage.setAttribute("src", baseURL + image.filename);
   newImage.setAttribute("alt", image.alt);
   newImage.setAttribute("tabindex", "0");
@@ -24,4 +25,9 @@ for (const image of images) {
   newImage.addEventListener("click", () => {
     updateDisplayedImage(newImage);
   });
+
+  function updateDisplayedImage(img) {
+    displayedImage.src = img.src;
+    displayedImage.alt = img.alt;
+}
 }
