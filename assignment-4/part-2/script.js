@@ -30,4 +30,15 @@ for (const image of images) {
     displayedImage.src = img.src;
     displayedImage.alt = img.alt;
 }
+
+btn.addEventListener("click", () => {
+  btn.classList.toggle("dark");
+
+  const isDark = btn.classList.contains("dark");
+
+  btn.textContent = isDark ? "Lighten" : "Darken";
+  
+  overlay.style.backgroundColor = isDark ? "rgb(0 0 0 / 0.5)" : "rgb(0 0 0 / 0)";
+});
+
 }
