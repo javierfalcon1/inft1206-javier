@@ -1,3 +1,11 @@
+/*
+Name: javier falcon 
+File: index.html 
+Date: 13 April 2026 
+javascript code to a silly story generator
+*/
+
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
