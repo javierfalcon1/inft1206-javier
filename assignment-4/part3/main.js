@@ -1,3 +1,10 @@
+/* 
+Name: Javier Falcon
+File: main.js 
+Date: 13 April 2026 
+javascript file for a bouncing balls demo 
+*/
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
