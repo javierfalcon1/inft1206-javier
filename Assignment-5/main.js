@@ -1,3 +1,12 @@
+/* 
+Name: javier falcon
+File: index.html 
+Date: 20 April 2026 
+the javascript file for a website with accesability issues. 
+*/ 
+
+
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
